@@ -1,4 +1,54 @@
+body {
+  margin: 10%;
+}
+
+h1.title {
+  margin: 10%;
+  padding: 10px;
+  text-align: center;
+}
+
 img {
-  width: 100px;
-  height: 125px;
+  width: 200px;
+  height: 225pxpx;
+}
+
+/* Table design */
+.cat-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.1em;
+  min-width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.cat-table thead tr {
+  background-color: rgb(37, 62, 255);
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cat-table th,
+.cat-table td {
+  padding: 12px 15px;
+}
+
+.cat-table tbody tr {
+  border-bottom: 2px solid #c6c2c2;
+}
+
+.cat-table tbody tr.active-row {
+  font-weight: bold;
+  color: rgb(37, 62, 255);
+}
+
+.cat-table tbody tr:nth-of-type(even) {
+  background-color: rgb(199, 200, 205);
+}
+
+.cat-table tbody tr:last-of-type {
+  border-bottom: 2px solid #000000;
 }
